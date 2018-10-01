@@ -55,6 +55,7 @@ def merge_sort(arr):
     new_array = merge(left_array, right_array)
     return new_array
 
-unsorted_array = [1, 2, 3, 6, 5, 6, 7, 8]
-sorted_array = merge_sort(unsorted_array)
-print(sorted_array)
+if __name__ == "__main__":
+    unsorted_array = [1, 2, 3, 6, 5, 6, 7, 8]
+    sorted_array = merge_sort(unsorted_array)
+    print(sorted_array)
